@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Franmarine Hull Cleaning Technology</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/FusLogo.png" alt="Franmarine Logo">
+                </a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="technology.html">TECHNOLOGY</a></li>
+                <li><a href="environment.html">ENVIRONMENT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="gallery.html" class="active">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="breadcrumb">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>Gallery</li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="container">
+                <h1>Gallery</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="gallery-page">
+        <div class="container">
+            <!-- Gallery Filter -->
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="equipment">Equipment</button>
+                <button class="filter-btn" data-filter="operations">Operations</button>
+                <button class="filter-btn" data-filter="biofouling">Biofouling</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Equipment Images -->
+                <div class="gallery-item" data-category="equipment">
+                    <a href="/api/placeholder/800/600" data-lightbox="gallery" data-title="Vacu-Cart System">
+                        <img src="/api/placeholder/400/300" alt="Vacu-Cart System">
+                        <div class="gallery-overlay">
+                            <span>Vacu-Cart System</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Operations Images -->
+                <div class="gallery-item" data-category="operations">
+                    <a href="/api/placeholder/800/600" data-lightbox="gallery" data-title="Underwater Cleaning Operations">
+                        <img src="/api/placeholder/400/300" alt="Underwater Cleaning Operations">
+                        <div class="gallery-overlay">
+                            <span>Underwater Cleaning</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="gallery-item" data-category="operations">
+                    <a href="/api/placeholder/800/600" data-lightbox="gallery" data-title="Diver Operating Equipment">
+                        <img src="/api/placeholder/400/300" alt="Diver Operating Equipment">
+                        <div class="gallery-overlay">
+                            <span>Diver Operations</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Biofouling Images -->
+                <div class="gallery-item" data-category="biofouling">
+                    <a href="/api/placeholder/800/600" data-lightbox="gallery" data-title="Marine Growth on Hull">
+                        <img src="/api/placeholder/400/300" alt="Marine Growth on Hull">
+                        <div class="gallery-overlay">
+                            <span>Marine Growth</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="gallery-item" data-category="biofouling">
+                    <a href="/api/placeholder/800/600" data-lightbox="gallery" data-title="Before Cleaning">
+                        <img src="/api/placeholder/400/300" alt="Before Cleaning">
+                        <div class="gallery-overlay">
+                            <span>Before Cleaning</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="gallery-item" data-category="biofouling">
+                    <a href="/api/placeholder/800/600" data-lightbox="gallery" data-title="After Cleaning">
+                        <img src="/api/placeholder/400/300" alt="After Cleaning">
+                        <div class="gallery-overlay">
+                            <span>After Cleaning</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Equipment Images -->
+                <div class="gallery-item" data-category="equipment">
+                    <a href="/api/placeholder/800/600" data-lightbox="gallery" data-title="Filtration System">
+                        <img src="/api/placeholder/400/300" alt="Filtration System">
+                        <div class="gallery-overlay">
+                            <span>Filtration System</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="gallery-item" data-category="operations">
+                    <a href="/api/placeholder/800/600" data-lightbox="gallery" data-title="Hull Inspection">
+                        <img src="/api/placeholder/400/300" alt="Hull Inspection">
+                        <div class="gallery-overlay">
+                            <span>Hull Inspection</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./assets/FusLogo.png" alt="Franmarine Logo" id="footerlogo">
+                    <p>Franmarine develops, engineers and manufactures environmentally compliant hull cleaning technology for the Marine industry...</p>
+                    <a href="about.html" class="btn-secondary">Read More</a>
+                </div>
+                <div class="footer-links">
+                    <h3>NAVIGATION LINKS</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="technology.html">Technology</a></li>
+                        <li><a href="environment.html">Environment</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>CONTACT US</h3>
+                    <p>info@franmarine.com.au</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Copyright 2025. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="./script.js"></script>
+    <script>
+        // Gallery Filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    button.classList.add('active');
+                    
+                    const filterValue = button.getAttribute('data-filter');
+                    
+                    galleryItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // Initialize Lightbox
+            lightbox.option({
+                'resizeDuration': 200,
+                'wrapAround': true
+            });
+        });
+    </script>
+</body>
+</html>

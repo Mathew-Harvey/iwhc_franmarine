@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Franmarine Hull Cleaning Technology</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/FusLogo.png" alt="Franmarine Logo">
+                </a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="technology.html">TECHNOLOGY</a></li>
+                <li><a href="environment.html">ENVIRONMENT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html" class="active">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="breadcrumb">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="container">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="contact-page">
+        <div class="container">
+            <section class="contact-details">
+                <h2>CONTACT DETAILS</h2>
+                <div class="contact-intro">
+                    <p>Thank you for your interest shown in the Vacu-Cart and Reclaim Filtration System.</p>
+                    <p>For general information please do not hesitate to contact <a href="mailto:info@franmarine.com.au">info@franmarine.com.au</a> or please complete the online form below.</p>
+                </div>
+            </section>
+
+            <section class="contact-form-section">
+                <h3>Please fill out this Form for more information</h3>
+                <form id="contactForm" class="contact-form" action="#" method="POST">
+                    <!-- Name Fields -->
+                    <div class="form-group name-group">
+                        <div class="form-field">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <!-- Email Field -->
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <!-- Country Field -->
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <input type="text" id="country" name="country">
+                    </div>
+
+                    <!-- Subject Field -->
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+
+                    <!-- Message Field -->
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="form-group">
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Additional Contact Information -->
+            <section class="additional-contact">
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p><a href="mailto:info@franmarine.com.au">info@franmarine.com.au</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>Contact us via email for phone details</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <h4>Business Hours</h4>
+                        <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./assets/FusLogo.png" alt="Franmarine Logo" id="footerlogo">
+                    <p>Franmarine develops, engineers and manufactures environmentally compliant hull cleaning technology for the Marine industry...</p>
+                    <a href="about.html" class="btn-secondary">Read More</a>
+                </div>
+                <div class="footer-links">
+                    <h3>NAVIGATION LINKS</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="technology.html">Technology</a></li>
+                        <li><a href="environment.html">Environment</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>CONTACT US</h3>
+                    <p>info@franmarine.com.au</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Copyright 2025. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script>
+        // Form Validation and Submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Basic form validation
+            const firstName = document.getElementById('firstName').value;
+            const lastName = document.getElementById('lastName').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if (!firstName || !lastName || !email || !message) {
+                alert('Please fill in all required fields');
+                return;
+            }
+
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert('Please enter a valid email address');
+                return;
+            }
+
+            // Here you would typically send the form data to a server
+            console.log('Form submitted:', {
+                firstName,
+                lastName,
+                email,
+                message
+            });
+
+            // Clear form after successful submission
+            this.reset();
+            alert('Thank you for your message. We will contact you soon.');
+        });
+    </script>
+</body>
+</html>
